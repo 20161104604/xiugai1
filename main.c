@@ -20,9 +20,9 @@ int main()
     char  longitude[10];
     char hight[5];
     int k,j,s,i,t1,t2,n;
-    fr=fopen("//GPSW.txt","r");
-    fw=fopen("//GPSW.txt","w");
-    fprintf(fw,"%d%s,%s%s,%s%s,%s%s,%s%s\n");
+    fr=fopen("//Users//a20161104604//Desktop//gpsz//GPSW.txt","r");
+    fw=fopen("//Users//a20161104604//Desktop//gpsz//GPSOUT.csv","w");
+    fprintf(fw,"日期,时间,纬度,经度,高度\n");
     while(!feof(fr))
     {
         fscanf(fr,"%s%s",a,a1);
